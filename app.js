@@ -20,7 +20,7 @@ app.use(router);
 
 mongoose.connect('mongodb+srv://overtimes:lkPSVcDT8XOoSvQU@cluster0-lbr9c.mongodb.net/overtime?retryWrites=true')
 .then( result => {
-    app.listen(9000)
+    app.listen(8080)
 })
 .catch(error=>{
     console.log(error)
